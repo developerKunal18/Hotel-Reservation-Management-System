@@ -1,0 +1,38 @@
+📌 Features
+- Add guests
+- View/search guests
+- Add rooms
+- View rooms
+- Search available rooms
+- Create reservations
+- Prevent double booking
+- Check-in guest
+- Check-out guest
+- Calculate room charges
+- Add extra charges
+- Calculate GST
+- Record payments
+- View reservation history
+- Hotel statistics
+- JSON data storage
+
+📁 Folder Structure
+hotel-reservation-management/
+│
+├── main.py
+├── config.py
+├── storage.py
+├── utils.py
+├── guest_manager.py
+├── room_manager.py
+├── reservation_manager.py
+├── payment_manager.py
+├── report_manager.py
+│
+├── data/
+│   ├── guests.json
+│   ├── rooms.json
+│   ├── reservations.json
+│   └── payments.json
+│
+└── README.md
